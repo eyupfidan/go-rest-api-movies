@@ -1,6 +1,10 @@
 package main
 
 import (
+	"fmt"
+	"log"
+	"net/http"
+
 	"github.com/gorilla/mux"
 )
 
@@ -20,5 +24,13 @@ var movies []Movie
 
 func main() {
 	r := mux.NewRouter()
-	r.HandleFunc()
+	r.HandleFunc("/movies", getMovies).Methods("GET")
+	r.HandleFunc("/movies/{id}", getMovie).Methods("GET")
+	r.HandleFunc("/movies", "createMovie").Methods("POST")
+	r.HandleFunc("/movies/{id}", updateMovie).Methods("PUT")
+	r.HandleFunc("/movies/{id}", deleteMovie).Methods("DELETE")
+
+	fmt.Println("Starting server at port 8080 ")
+	log.Fatal(http.ListenAndServe(":8000", r))
+
 }
