@@ -7,10 +7,14 @@ By installing our own api service in this project. I tried the GET POST PUT DELE
 > - Ubuntu 
 > - Git SCM
 > - Visual Code
+# Installation
+
 
 # Postman Screenshot
 
-
+> - git clone https://github.com/eyupfidan/go-rest-api-movies.git
+> - cd go-rest-api-movies
+> - go run main.go
 
 
 
