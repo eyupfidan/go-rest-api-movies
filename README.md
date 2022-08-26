@@ -8,7 +8,7 @@ By installing our own api service in this project. I tried the GET POST PUT DELE
 > - Git SCM
 > - Visual Code
 > 
-# Installation
+# Installation & Execute
    <pre>
  git clone https://github.com/eyupfidan/go-rest-api-movies.git
  cd go-rest-api-movies
