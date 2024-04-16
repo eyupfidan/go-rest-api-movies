@@ -16,4 +16,4 @@ By installing our own api service in this project. I tried the GET POST PUT DELE
  go run main.go
    </pre>
 
-![Logo](https://raw.githubusercontent.com/eyupfidan/go-rest-api-movies/main/assets/go-rest-api-movies-1.png?token=GHSAT0AAAAAABWDVPC52LD6C5N7GWAHY5PMYX54XRA)
+![Logo](https://raw.githubusercontent.com/eyupfidan/go-rest-api-movies/main/assets/sample.png)
